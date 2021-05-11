@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1169146C264AA1F900C01B69 /* JaikaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1169146B264AA1F900C01B69 /* JaikaApp.swift */; };
+		1169146E264AA1F900C01B69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1169146D264AA1F900C01B69 /* ContentView.swift */; };
+		11691470264AA1FC00C01B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1169146F264AA1FC00C01B69 /* Assets.xcassets */; };
+		11691473264AA1FC00C01B69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11691472264AA1FC00C01B69 /* Preview Assets.xcassets */; };
+		1169147E264AA1FC00C01B69 /* JaikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1169147D264AA1FC00C01B69 /* JaikaTests.swift */; };
+		11691489264AA1FC00C01B69 /* JaikaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11691488264AA1FC00C01B69 /* JaikaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1169147A264AA1FC00C01B69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11691460264AA1F900C01B69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11691467264AA1F900C01B69;
+			remoteInfo = Jaika;
+		};
+		11691485264AA1FC00C01B69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11691460264AA1F900C01B69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11691467264AA1F900C01B69;
+			remoteInfo = Jaika;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11691468264AA1F900C01B69 /* Jaika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jaika.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1169146B264AA1F900C01B69 /* JaikaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaikaApp.swift; sourceTree = "<group>"; };
+		1169146D264AA1F900C01B69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1169146F264AA1FC00C01B69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11691472264AA1FC00C01B69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11691474264AA1FC00C01B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11691479264AA1FC00C01B69 /* JaikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JaikaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1169147D264AA1FC00C01B69 /* JaikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaikaTests.swift; sourceTree = "<group>"; };
+		1169147F264AA1FC00C01B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11691484264AA1FC00C01B69 /* JaikaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JaikaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11691488264AA1FC00C01B69 /* JaikaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaikaUITests.swift; sourceTree = "<group>"; };
+		1169148A264AA1FC00C01B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11691465264AA1F900C01B69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11691476264AA1FC00C01B69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11691481264AA1FC00C01B69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1169145F264AA1F900C01B69 = {
+			isa = PBXGroup;
+			children = (
+				1169146A264AA1F900C01B69 /* Jaika */,
+				1169147C264AA1FC00C01B69 /* JaikaTests */,
+				11691487264AA1FC00C01B69 /* JaikaUITests */,
+				11691469264AA1F900C01B69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11691469264AA1F900C01B69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11691468264AA1F900C01B69 /* Jaika.app */,
+				11691479264AA1FC00C01B69 /* JaikaTests.xctest */,
+				11691484264AA1FC00C01B69 /* JaikaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1169146A264AA1F900C01B69 /* Jaika */ = {
+			isa = PBXGroup;
+			children = (
+				1169146B264AA1F900C01B69 /* JaikaApp.swift */,
+				1169146D264AA1F900C01B69 /* ContentView.swift */,
+				1169146F264AA1FC00C01B69 /* Assets.xcassets */,
+				11691474264AA1FC00C01B69 /* Info.plist */,
+				11691471264AA1FC00C01B69 /* Preview Content */,
+			);
+			path = Jaika;
+			sourceTree = "<group>";
+		};
+		11691471264AA1FC00C01B69 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				11691472264AA1FC00C01B69 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1169147C264AA1FC00C01B69 /* JaikaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1169147D264AA1FC00C01B69 /* JaikaTests.swift */,
+				1169147F264AA1FC00C01B69 /* Info.plist */,
+			);
+			path = JaikaTests;
+			sourceTree = "<group>";
+		};
+		11691487264AA1FC00C01B69 /* JaikaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11691488264AA1FC00C01B69 /* JaikaUITests.swift */,
+				1169148A264AA1FC00C01B69 /* Info.plist */,
+			);
+			path = JaikaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11691467264AA1F900C01B69 /* Jaika */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1169148D264AA1FC00C01B69 /* Build configuration list for PBXNativeTarget "Jaika" */;
+			buildPhases = (
+				11691464264AA1F900C01B69 /* Sources */,
+				11691465264AA1F900C01B69 /* Frameworks */,
+				11691466264AA1F900C01B69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jaika;
+			productName = Jaika;
+			productReference = 11691468264AA1F900C01B69 /* Jaika.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11691478264AA1FC00C01B69 /* JaikaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11691490264AA1FC00C01B69 /* Build configuration list for PBXNativeTarget "JaikaTests" */;
+			buildPhases = (
+				11691475264AA1FC00C01B69 /* Sources */,
+				11691476264AA1FC00C01B69 /* Frameworks */,
+				11691477264AA1FC00C01B69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1169147B264AA1FC00C01B69 /* PBXTargetDependency */,
+			);
+			name = JaikaTests;
+			productName = JaikaTests;
+			productReference = 11691479264AA1FC00C01B69 /* JaikaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11691483264AA1FC00C01B69 /* JaikaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11691493264AA1FC00C01B69 /* Build configuration list for PBXNativeTarget "JaikaUITests" */;
+			buildPhases = (
+				11691480264AA1FC00C01B69 /* Sources */,
+				11691481264AA1FC00C01B69 /* Frameworks */,
+				11691482264AA1FC00C01B69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11691486264AA1FC00C01B69 /* PBXTargetDependency */,
+			);
+			name = JaikaUITests;
+			productName = JaikaUITests;
+			productReference = 11691484264AA1FC00C01B69 /* JaikaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11691460264AA1F900C01B69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					11691467264AA1F900C01B69 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					11691478264AA1FC00C01B69 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 11691467264AA1F900C01B69;
+					};
+					11691483264AA1FC00C01B69 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 11691467264AA1F900C01B69;
+					};
+				};
+			};
+			buildConfigurationList = 11691463264AA1F900C01B69 /* Build configuration list for PBXProject "Jaika" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1169145F264AA1F900C01B69;
+			productRefGroup = 11691469264AA1F900C01B69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11691467264AA1F900C01B69 /* Jaika */,
+				11691478264AA1FC00C01B69 /* JaikaTests */,
+				11691483264AA1FC00C01B69 /* JaikaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11691466264AA1F900C01B69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11691473264AA1FC00C01B69 /* Preview Assets.xcassets in Resources */,
+				11691470264AA1FC00C01B69 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11691477264AA1FC00C01B69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11691482264AA1FC00C01B69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11691464264AA1F900C01B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1169146E264AA1F900C01B69 /* ContentView.swift in Sources */,
+				1169146C264AA1F900C01B69 /* JaikaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11691475264AA1FC00C01B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1169147E264AA1FC00C01B69 /* JaikaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11691480264AA1FC00C01B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11691489264AA1FC00C01B69 /* JaikaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1169147B264AA1FC00C01B69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11691467264AA1F900C01B69 /* Jaika */;
+			targetProxy = 1169147A264AA1FC00C01B69 /* PBXContainerItemProxy */;
+		};
+		11691486264AA1FC00C01B69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11691467264AA1F900C01B69 /* Jaika */;
+			targetProxy = 11691485264AA1FC00C01B69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1169148B264AA1FC00C01B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1169148C264AA1FC00C01B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1169148E264AA1FC00C01B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Jaika/Preview Content\"";
+				DEVELOPMENT_TEAM = 3JF6M2L57N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Jaika/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ching.Jaika;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1169148F264AA1FC00C01B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Jaika/Preview Content\"";
+				DEVELOPMENT_TEAM = 3JF6M2L57N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Jaika/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ching.Jaika;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11691491264AA1FC00C01B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JF6M2L57N;
+				INFOPLIST_FILE = JaikaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ching.JaikaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jaika.app/Jaika";
+			};
+			name = Debug;
+		};
+		11691492264AA1FC00C01B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JF6M2L57N;
+				INFOPLIST_FILE = JaikaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ching.JaikaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jaika.app/Jaika";
+			};
+			name = Release;
+		};
+		11691494264AA1FC00C01B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JF6M2L57N;
+				INFOPLIST_FILE = JaikaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ching.JaikaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jaika;
+			};
+			name = Debug;
+		};
+		11691495264AA1FC00C01B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JF6M2L57N;
+				INFOPLIST_FILE = JaikaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ching.JaikaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jaika;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11691463264AA1F900C01B69 /* Build configuration list for PBXProject "Jaika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1169148B264AA1FC00C01B69 /* Debug */,
+				1169148C264AA1FC00C01B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1169148D264AA1FC00C01B69 /* Build configuration list for PBXNativeTarget "Jaika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1169148E264AA1FC00C01B69 /* Debug */,
+				1169148F264AA1FC00C01B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11691490264AA1FC00C01B69 /* Build configuration list for PBXNativeTarget "JaikaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11691491264AA1FC00C01B69 /* Debug */,
+				11691492264AA1FC00C01B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11691493264AA1FC00C01B69 /* Build configuration list for PBXNativeTarget "JaikaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11691494264AA1FC00C01B69 /* Debug */,
+				11691495264AA1FC00C01B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11691460264AA1F900C01B69 /* Project object */;
+}
